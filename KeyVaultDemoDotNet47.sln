@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyVaultDemoDotNet47", "KeyVaultDemoDotNet47\KeyVaultDemoDotNet47.csproj", "{F4EE1133-74A2-4BB9-B812-51DB8320487F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4EE1133-74A2-4BB9-B812-51DB8320487F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4EE1133-74A2-4BB9-B812-51DB8320487F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4EE1133-74A2-4BB9-B812-51DB8320487F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4EE1133-74A2-4BB9-B812-51DB8320487F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {525FFFEA-11D7-47C9-AC9B-BF1C3AC3E44D}
+	EndGlobalSection
+EndGlobal
