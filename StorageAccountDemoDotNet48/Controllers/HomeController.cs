@@ -23,11 +23,18 @@ namespace StorageAccountDemoDotNet48.Controllers
         public async Task< ActionResult> About()
         {
            
-           await new StorageAccountHelper().CreateBlockBlobAsync("demodotnet48stg", "abc", "abc-blob");
+           await new StorageAccountHelper().CreateBlockBlobAsync("test-blob");
             ViewBag.Message = "Blob has been created success fully.";
             return View();
         }
 
+        public async Task<ActionResult> Download()
+        {
+
+            ViewBag.Message = await new StorageAccountHelper().DownloadBlockBlobAsync("test-blob");
+           // ViewBag.Message = "Blob has been created success fully.";
+            return Content(ViewBag.Message);
+        }
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
